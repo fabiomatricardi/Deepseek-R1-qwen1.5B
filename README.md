@@ -1,15 +1,16 @@
 # Deepseek-R1-qwen1.5B
 how to run DeepSeek-R1-Distill-Qwen-1.5B GGUF locally on your PC
+
 <img src='https://github.com/fabiomatricardi/Deepseek-R1-qwen1.5B/raw/main/deppseekR1.png' width=800>
 
 ### technology stack
 Run the model with llama.cpp binaries, Vulkan flavour
 
-For months I have done the wrong things. But llama.cpp now has pre-compiled binaries at every release. So, for instance, starting from revision b4351 llama.cpp supports also the Falcon3 models.
+For months I have done the wrong things. But llama.cpp now has pre-compiled binaries at every release. And it supports also the latest DeepSeek models.
 
 To be inclusive (all kind of hardware) we will use the binaries for AXV2 support, from release b4539 (the one available at the time of this newsletter writing).
 
-Download the file in your project directory: for me is `Deepseek-R1-qwen1.5B`. Create a sub-folder called llamacpp and inside another one called model (we will download the GGF for Falcon3 there).
+Download the file in your project directory: for me is `Deepseek-R1-qwen1.5B`. Create a sub-folder called llamacpp and inside another one called model (we will download the GGUF there).
 
 > note that if you clone the repo all the subdirectory are already created. And the main project directory will be called `Deepseek-R1-qwen1.5B`
 
