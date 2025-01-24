@@ -1,6 +1,6 @@
 # Deepseek-R1-qwen1.5B
 how to run DeepSeek-R1-Distill-Qwen-1.5B GGUF locally on your PC
-
+<img src='https://github.com/fabiomatricardi/Deepseek-R1-qwen1.5B/raw/main/deppseekR1.png' width=800>
 
 ### technology stack
 Run the model with llama.cpp binaries, Vulkan flavour
@@ -11,7 +11,7 @@ To be inclusive (all kind of hardware) we will use the binaries for AXV2 support
 
 Download the file in your project directory: for me is Falcon3. Create a sub-folder called llamacpp and inside another one called model (we will download the GGF for Falcon3 there).
 
-<img src='https://github.com/fabiomatricardi/Falcon3-1B-it-llamaCPP/raw/main/image001.png' width=800>
+<img src='https://github.com/fabiomatricardi/Deepseek-R1-qwen1.5B/raw/main/howto-model.png' width=800>
 
 Unzip all files in the [llama-b4539-bin-win-vulkan-x64.zip](https://github.com/ggerganov/llama.cpp/releases/download/b4539/llama-b4539-bin-win-vulkan-x64.zip)  archive into the llamacpp directory
 
@@ -19,7 +19,7 @@ Unzip all files in the [llama-b4539-bin-win-vulkan-x64.zip](https://github.com/g
 
 - download the GGUF from the [Bartowski repo](https://huggingface.co/bartowski/DeepSeek-R1-Distill-Qwen-1.5B-GGUF) I used the [DeepSeek-R1-Distill-Qwen-1.5B-Q6_K.gguf](https://huggingface.co/bartowski/DeepSeek-R1-Distill-Qwen-1.5B-GGUF/resolve/main/DeepSeek-R1-Distill-Qwen-1.5B-Q6_K.gguf?download=true). Save the GGUF file in the subdirectory llamacpp\model.
 
-<img src='https://github.com/fabiomatricardi/Falcon3-1B-it-llamaCPP/raw/main/image003.png' width=800>
+---
 
 Open a terminal window in the subdirectory llamacpp, and run
 ```
