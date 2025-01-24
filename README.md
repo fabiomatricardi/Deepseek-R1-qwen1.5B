@@ -9,7 +9,9 @@ For months I have done the wrong things. But llama.cpp now has pre-compiled bina
 
 To be inclusive (all kind of hardware) we will use the binaries for AXV2 support, from release b4539 (the one available at the time of this newsletter writing).
 
-Download the file in your project directory: for me is Falcon3. Create a sub-folder called llamacpp and inside another one called model (we will download the GGF for Falcon3 there).
+Download the file in your project directory: for me is `Deepseek-R1-qwen1.5B`. Create a sub-folder called llamacpp and inside another one called model (we will download the GGF for Falcon3 there).
+
+> note that if you clone the repo all the subdirectory are already created. And the main project directory will be called `Deepseek-R1-qwen1.5B`
 
 <img src='https://github.com/fabiomatricardi/Deepseek-R1-qwen1.5B/raw/main/howto-model.png' width=800>
 
