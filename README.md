@@ -21,6 +21,10 @@ Unzip all files in the [llama-b4539-bin-win-vulkan-x64.zip](https://github.com/g
 
 ---
 
+## A 2 windows strategy
+
+<img src='https://github.com/fabiomatricardi/Deepseek-R1-qwen1.5B/raw/main/2terminals.png' width=900>
+
 Open a terminal window in the subdirectory llamacpp, and run
 ```
 start cmd.exe /k "llama-server.exe -m model/DeepSeek-R1-Distill-Qwen-1.5B-Q6_K.gguf -c 15000 -ngl 999"
@@ -41,5 +45,14 @@ From the terminal with the `venv` activated run
 ```
 python runDeepSeekR1.py
 ```
+
+## The result
+
+<img src='https://github.com/fabiomatricardi/Deepseek-R1-qwen1.5B/raw/main/deepseekR1_terminal_sm.gif' width=1200>
+
+
+---
+
+
 
 
